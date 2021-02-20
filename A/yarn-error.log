@@ -1,0 +1,64 @@
+Arguments: 
+  /usr/local/Cellar/node/14.2.0/bin/node /usr/local/bin/yarn --registry=http://npm.intra.xiaojukeji.com
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.2.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/Users/didi/Library/Caches/Yarn/v6/npm-is-stream-2.0.0-bde9c32680d6fae04129d6ac9d921ce7815f78e3-integrity/node_modules/is-stream/index.d.ts' -> '/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/node_modules/lint-staged/node_modules/is-stream/index.d.ts'
+
+npm manifest: 
+  {
+    "private": true,
+    "scripts": {
+      "start": "umi dev",
+      "build": "umi build",
+      "postinstall": "umi generate tmp",
+      "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
+      "test": "umi-test",
+      "test:coverage": "umi-test --coverage"
+    },
+    "gitHooks": {
+      "pre-commit": "lint-staged"
+    },
+    "lint-staged": {
+      "*.{js,jsx,less,md,json}": [
+        "prettier --write"
+      ],
+      "*.ts?(x)": [
+        "prettier --parser=typescript --write"
+      ]
+    },
+    "dependencies": {
+      "@ant-design/pro-layout": "^6.5.0",
+      "@umijs/preset-react": "1.x",
+      "umi": "^3.3.3"
+    },
+    "devDependencies": {
+      "@types/react": "^16.9.0",
+      "@types/react-dom": "^16.9.0",
+      "@umijs/test": "^3.3.3",
+      "lint-staged": "^10.0.7",
+      "prettier": "^2.2.0",
+      "react": "^16.12.0",
+      "react-dom": "^16.12.0",
+      "typescript": "^4.1.2",
+      "yorkie": "^2.0.0"
+    },
+    "__npminstall_done": false
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
