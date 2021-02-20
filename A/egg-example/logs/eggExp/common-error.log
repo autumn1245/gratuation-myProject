@@ -1,0 +1,120 @@
+2021-01-14 17:59:22,390 ERROR 76728 nodejs.ClusterClientNoResponseError: client no response in 284543ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 76728
+hostname: localhost
+
+2021-01-14 19:11:21,076 ERROR 76728 nodejs.ClusterClientNoResponseError: client no response in 543047ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 76728
+hostname: localhost
+
+2021-01-14 19:54:10,197 ERROR 76728 nodejs.ClusterClientNoResponseError: client no response in 2549110ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 76728
+hostname: localhost
+
+2021-01-14 20:45:51,879 ERROR 76728 nodejs.ClusterClientNoResponseError: client no response in 1921459ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 76728
+hostname: localhost
+
+2021-01-14 22:46:49,302 ERROR 76728 nodejs.ClusterClientNoResponseError: client no response in 7217376ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 76728
+hostname: localhost
+
+2021-01-14 23:47:37,087 ERROR 76728 nodejs.ClusterClientNoResponseError: client no response in 1867313ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 76728
+hostname: localhost
+
+2021-01-15 00:40:15,417 ERROR 76728 nodejs.ClusterClientNoResponseError: client no response in 3118321ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 76728
+hostname: localhost
+
+2021-01-15 02:18:12,702 ERROR 76728 nodejs.ClusterClientNoResponseError: client no response in 4076884ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 76728
+hostname: localhost
+
+2021-01-15 02:20:59,601 ERROR 76728 nodejs.ClusterClientNoResponseError: client no response in 106865ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 76728
+hostname: localhost
+
+2021-01-15 02:26:29,353 ERROR 76728 nodejs.ClusterClientNoResponseError: client no response in 309736ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 76728
+hostname: localhost
+
+2021-01-15 02:36:02,224 ERROR 76728 nodejs.ClusterClientNoResponseError: client no response in 451424ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 76728
+hostname: localhost
+
+2021-01-15 05:09:28,759 ERROR 76728 nodejs.ClusterClientNoResponseError: client no response in 7214734ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 76728
+hostname: localhost
+
+2021-01-15 07:00:26,815 ERROR 76728 nodejs.ClusterClientNoResponseError: client no response in 4857653ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 76728
+hostname: localhost
+
+2021-01-15 09:30:42,411 ERROR 76728 nodejs.ClusterClientNoResponseError: client no response in 7215138ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 76728
+hostname: localhost
+
+2021-01-15 10:13:56,505 ERROR 76728 nodejs.ClusterClientNoResponseError: client no response in 133512ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 76728
+hostname: localhost
+

@@ -1,0 +1,134 @@
+2021-01-14 15:07:54,513 INFO 76728 [egg:logger] init all loggers with options: {"dir":"/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/logs/eggExp","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggExp-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-01-14 15:07:54,521 INFO 76728 [egg:core] dump config after load, 3ms
+2021-01-14 15:07:54,574 INFO 76728 [egg-watcher] Start watching: ["/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/app","/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/config","/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/mocks","/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/mocks_proxy","/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/app.js"]
+2021-01-14 15:07:54,574 INFO 76728 [egg-watcher] Start watching: "/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/app"
+2021-01-14 15:07:54,574 INFO 76728 [egg-watcher] Start watching: "/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/config"
+2021-01-14 15:07:54,574 INFO 76728 [egg-watcher] Start watching: "/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/mocks"
+2021-01-14 15:07:54,575 INFO 76728 [egg-watcher] Start watching: "/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/mocks_proxy"
+2021-01-14 15:07:54,575 INFO 76728 [egg-watcher] Start watching: "/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/app.js"
+2021-01-14 15:07:54,575 INFO 76728 [egg-watcher:agent] watcher start success
+2021-01-14 15:07:54,588 INFO 76728 [egg:core] dump config after ready, 6ms
+2021-01-14 15:07:55,600 INFO 76728 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/app/public","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12917743924,"size":64,"blocks":0,"atimeMs":1610608075588.8413,"mtimeMs":1610608075588.8413,"ctimeMs":1610608075588.8413,"birthtimeMs":1610608075588.8413,"atime":"2021-01-14T07:07:55.589Z","mtime":"2021-01-14T07:07:55.589Z","ctime":"2021-01-14T07:07:55.589Z","birthtime":"2021-01-14T07:07:55.589Z"},"remove":false,"isDirectory":true,"isFile":false}
+2021-01-14 17:59:22,403 ERROR 76728 nodejs.ClusterClientNoResponseError: client no response in 284543ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 76728
+hostname: localhost
+
+2021-01-14 18:22:56,321 WARN 76728 [agent:development] reload worker because /Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/app/controller/home.js change
+2021-01-14 18:22:56,042 INFO 76728 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/app/controller/home.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12917689183,"size":215,"blocks":8,"atimeMs":1610606833585.3284,"mtimeMs":1610619775894.6858,"ctimeMs":1610619775894.6858,"birthtimeMs":1610606831705.0383,"atime":"2021-01-14T06:47:13.585Z","mtime":"2021-01-14T10:22:55.895Z","ctime":"2021-01-14T10:22:55.895Z","birthtime":"2021-01-14T06:47:11.705Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-14 18:22:56,092 INFO 76728 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/app/controller/home.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12917689183,"size":215,"blocks":8,"atimeMs":1610606833585.3284,"mtimeMs":1610619775894.6858,"ctimeMs":1610619775894.6858,"birthtimeMs":1610606831705.0383,"atime":"2021-01-14T06:47:13.585Z","mtime":"2021-01-14T10:22:55.895Z","ctime":"2021-01-14T10:22:55.895Z","birthtime":"2021-01-14T06:47:11.705Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-14 19:11:21,078 ERROR 76728 nodejs.ClusterClientNoResponseError: client no response in 543047ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 76728
+hostname: localhost
+
+2021-01-14 19:54:10,198 ERROR 76728 nodejs.ClusterClientNoResponseError: client no response in 2549110ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 76728
+hostname: localhost
+
+2021-01-14 20:45:51,881 ERROR 76728 nodejs.ClusterClientNoResponseError: client no response in 1921459ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 76728
+hostname: localhost
+
+2021-01-14 22:46:49,303 ERROR 76728 nodejs.ClusterClientNoResponseError: client no response in 7217376ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 76728
+hostname: localhost
+
+2021-01-14 23:47:37,087 ERROR 76728 nodejs.ClusterClientNoResponseError: client no response in 1867313ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 76728
+hostname: localhost
+
+2021-01-15 00:40:15,417 ERROR 76728 nodejs.ClusterClientNoResponseError: client no response in 3118321ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 76728
+hostname: localhost
+
+2021-01-15 02:18:12,707 ERROR 76728 nodejs.ClusterClientNoResponseError: client no response in 4076884ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 76728
+hostname: localhost
+
+2021-01-15 02:20:59,607 ERROR 76728 nodejs.ClusterClientNoResponseError: client no response in 106865ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 76728
+hostname: localhost
+
+2021-01-15 02:26:29,353 ERROR 76728 nodejs.ClusterClientNoResponseError: client no response in 309736ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 76728
+hostname: localhost
+
+2021-01-15 02:36:02,226 ERROR 76728 nodejs.ClusterClientNoResponseError: client no response in 451424ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 76728
+hostname: localhost
+
+2021-01-15 05:09:28,760 ERROR 76728 nodejs.ClusterClientNoResponseError: client no response in 7214734ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 76728
+hostname: localhost
+
+2021-01-15 07:00:26,815 ERROR 76728 nodejs.ClusterClientNoResponseError: client no response in 4857653ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 76728
+hostname: localhost
+
+2021-01-15 09:30:42,412 ERROR 76728 nodejs.ClusterClientNoResponseError: client no response in 7215138ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 76728
+hostname: localhost
+
+2021-01-15 10:13:56,512 ERROR 76728 nodejs.ClusterClientNoResponseError: client no response in 133512ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/didi/yarong/xiyou/graduationProject/graduation/myapp/umiExp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 76728
+hostname: localhost
+
